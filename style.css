@@ -1,0 +1,58 @@
+#banner {
+    height: 90vh;
+    background-image:url("wide-angle-shot-single-tree-growing-clouded-sky-sunset-surrounded-by-grass.jpg");  
+    background-size: cover;
+    background-position: center;
+}
+.btn{
+    padding: 15,30 ;
+    transition: all 0.5 ease ;
+    font-size: 18;
+    font-weight: 700;
+    border-radius: 1;
+    letter-spacing: 2;
+}
+
+.btn-brand{
+    background-color: grey;
+    border: 3px solid yellow;
+}
+.btn-brand:hover {
+    background-color: transparent;
+    color:darkgoldenrod;
+    border-color: darkgoldenrod;
+}
+
+section{
+    padding: 100px 0;
+ }
+
+#about h2 {
+    font-size: 55px ;
+    font-weight: 900px;
+    color: black ;
+
+}
+#about{
+    color:black
+
+}
+
+.kalibutan-png{
+    width: 40%;
+}
+
+#services .btn-primary:hover {
+    color: brown;
+    border-color: black;
+}
+
+.card:hover {
+    background-color: yellow ;
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn{
+    color: white;
+}
